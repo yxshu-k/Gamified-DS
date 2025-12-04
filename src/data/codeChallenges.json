@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "title": "Reverse a Stack",
+      "example": "function reverseStack(stack) {\n  return stack.reverse();\n}\nconsole.log(reverseStack([1,2,3])); // [3,2,1]",
+      "challenge": "Write a function to reverse the given stack without using the built-in reverse method.",
+      "starterCode": "function reverseStack(stack) {\n  // Your logic here\n}\nconsole.log(reverseStack([1,2,3,4]));"
+    },
+    {
+      "id": 2,
+      "title": "Balanced Parentheses",
+      "example": "function isBalanced(str) {\n  const stack = [];\n  for (let ch of str) {\n    if (ch === '(') stack.push(ch);\n    else if (ch === ')') stack.pop();\n  }\n  return stack.length === 0;\n}\nconsole.log(isBalanced('(())')); // true",
+      "challenge": "Implement a function that checks if a given string has balanced parentheses.",
+      "starterCode": "function isBalanced(str) {\n  const stack = [];\n  // Complete logic\n}\nconsole.log(isBalanced('(())'));"
+    },
+    {
+      "id": 3,
+      "title": "Next Greater Element",
+      "example": "function nextGreater(arr) {\n  const res = [];\n  for (let i=0; i<arr.length; i++) {\n    let next = -1;\n    for (let j=i+1; j<arr.length; j++) {\n      if (arr[j] > arr[i]) { next = arr[j]; break; }\n    }\n    res.push(next);\n  }\n  return res;\n}\nconsole.log(nextGreater([2,1,3])); // [3,3,-1]",
+      "challenge": "Find the next greater element for each element in the array using a stack.",
+      "starterCode": "function nextGreater(arr) {\n  const res = [];\n  // Use stack to optimize\n}\nconsole.log(nextGreater([2,5,3,7]));"
+    },
+    {
+      "id": 4,
+      "title": "Sort a Stack",
+      "example": "function sortStack(stack) {\n  return stack.sort((a,b)=>a-b);\n}\nconsole.log(sortStack([3,1,4,2]));",
+      "challenge": "Sort a stack using recursion only (no loops allowed).",
+      "starterCode": "function sortStack(stack) {\n  // Recursive sorting logic here\n}\nconsole.log(sortStack([3,1,4,2]));"
+    },
+    {
+      "id": 5,
+      "title": "Stack Minimum Element",
+      "example": "function getMin(stack) {\n  return Math.min(...stack);\n}\nconsole.log(getMin([3,1,4,2])); // 1",
+      "challenge": "Implement a function to get the minimum element of a stack in O(1) time.",
+      "starterCode": "function getMinStack() {\n  let main = [], minStack = [];\n  return { push(x){}, pop(){}, getMin(){} };\n}"
+    },
+    {
+      "id": 6,
+      "title": "Implement Stack Using Queue",
+      "example": "class Stack {\n constructor(){ this.q=[]; }\n push(x){ this.q.push(x); }\n pop(){ this.q.pop(); }\n}",
+      "challenge": "Build a stack using only one queue data structure.",
+      "starterCode": "class Stack {\n constructor(){ this.q=[]; }\n push(x){ }\n pop(){ }\n top(){ }\n}\n"
+    },
+    {
+      "id": 7,
+      "title": "Palindrome Using Stack",
+      "example": "function isPalindrome(str){\n let s=str.split('');\n return s.join('')===s.reverse().join(''); }\nconsole.log(isPalindrome('madam'));",
+      "challenge": "Use a stack to check whether a string is palindrome.",
+      "starterCode": "function isPalindrome(str){\n const stack=[];\n // Push and compare\n}\nconsole.log(isPalindrome('level'));"
+    },
+    {
+      "id": 8,
+      "title": "Stack Using Linked List",
+      "example": "class Node{ constructor(val){ this.val=val; this.next=null; } }\nclass Stack{ constructor(){ this.top=null; }\n push(x){ let n=new Node(x); n.next=this.top; this.top=n; }\n pop(){ if(!this.top) return null; this.top=this.top.next; }}",
+      "challenge": "Implement stack operations using a linked list.",
+      "starterCode": "class Node{ constructor(v){ this.val=v; this.next=null; }}\nclass Stack{ constructor(){ this.top=null; }\n push(x){}\n pop(){}\n peek(){}\n}"
+    },
+    {
+      "id": 9,
+      "title": "Evaluate Postfix Expression",
+      "example": "function evaluate(expr){\n const s=[];\n for(let ch of expr){\n  if(!isNaN(ch)) s.push(Number(ch));\n  else { let b=s.pop(), a=s.pop();\n   if(ch==='+') s.push(a+b);\n   else if(ch==='*') s.push(a*b);\n  }\n }\n return s[0]; }\nconsole.log(evaluate('23*')); // 6",
+      "challenge": "Write a program to evaluate postfix expressions using a stack.",
+      "starterCode": "function evaluate(expr){\n const stack=[];\n // your code here\n}\nconsole.log(evaluate('231*+9-'));"
+    },
+    {
+      "id": 10,
+      "title": "Reverse a String Using Stack",
+      "example": "function reverseString(str){\n const s=[];\n for(let ch of str) s.push(ch);\n let res='';\n while(s.length) res+=s.pop();\n return res; }\nconsole.log(reverseString('hello')); // olleh",
+      "challenge": "Reverse a string using only stack operations.",
+      "starterCode": "function reverseString(str){\n const stack=[];\n // Push & Pop logic\n}\nconsole.log(reverseString('world'));"
+    },
+    {
+      "id": 11,
+      "title": "Implement Queue Using Stack",
+      "example": "class Queue{\n constructor(){this.s1=[];this.s2=[];}\n enqueue(x){this.s1.push(x);}\n dequeue(){if(!this.s2.length)while(this.s1.length)this.s2.push(this.s1.pop());return this.s2.pop();}}",
+      "challenge": "Implement a queue using two stacks.",
+      "starterCode": "class Queue{\n constructor(){this.s1=[];this.s2=[];}\n enqueue(x){}\n dequeue(){}\n}"
+    },
+    {
+      "id": 12,
+      "title": "Valid HTML Tags",
+      "example": "Use stack to check opening/closing tags in '<html><body></body></html>'.",
+      "challenge": "Write a function to verify if HTML tags are properly nested.",
+      "starterCode": "function validHTML(str){\n const stack=[];\n // detect <tag> and </tag>\n}\nconsole.log(validHTML('<a><b></b></a>'));"
+    },
+    {
+      "id": 13,
+      "title": "Stock Span Problem",
+      "example": "function stockSpan(prices){\n const s=[], res=[];\n for(let i=0;i<prices.length;i++){\n while(s.length && prices[s[s.length-1]]<=prices[i])s.pop();\n res[i]=s.length?i-s[s.length-1]:i+1;\n s.push(i);\n }\n return res; }",
+      "challenge": "Solve stock span using a stack to find consecutive smaller prices.",
+      "starterCode": "function stockSpan(prices){\n const stack=[], span=[];\n}\nconsole.log(stockSpan([100,80,60,70,60,75,85]));"
+    },
+    {
+      "id": 14,
+      "title": "Celebrity Problem",
+      "example": "Find celebrity using stack who is known by everyone but knows no one.",
+      "challenge": "Implement a function that finds the celebrity using stack elimination.",
+      "starterCode": "function findCelebrity(M){\n const stack=[];\n // matrix logic\n}\nconsole.log(findCelebrity([[0,1,0],[0,0,0],[1,1,0]]));"
+    },
+    {
+      "id": 15,
+      "title": "Next Smaller Element",
+      "example": "Similar to next greater but find next smaller number.",
+      "challenge": "Find next smaller element to right using stack.",
+      "starterCode": "function nextSmaller(arr){\n const stack=[], result=[];\n}\nconsole.log(nextSmaller([4,8,5,2,25]));"
+    },
+    {
+      "id": 16,
+      "title": "Span of Binary Matrix",
+      "example": "Use stack to find max rectangle area in binary matrix.",
+      "challenge": "Find largest rectangle of 1’s in a binary matrix using histogram logic.",
+      "starterCode": "function maxArea(matrix){\n // use histogram + stack\n}"
+    },
+    {
+      "id": 17,
+      "title": "Rain Water Trapping",
+      "example": "Use stack to calculate trapped water between bars.",
+      "challenge": "Given heights, calculate total trapped rainwater using stack.",
+      "starterCode": "function trap(height){\n const stack=[];\n}\nconsole.log(trap([0,1,0,2,1,0,1,3,2,1,2,1]));"
+    },
+    {
+      "id": 18,
+      "title": "Decode String",
+      "example": "Given '3[a2[b]]' -> 'abbabbabb' using stack.",
+      "challenge": "Use stack to decode strings with nested patterns like 2[abc3[d]].",
+      "starterCode": "function decodeString(s){\n const stack=[];\n}\nconsole.log(decodeString('3[a2[b]]'));"
+    },
+    {
+      "id": 19,
+      "title": "Expression Conversion",
+      "example": "Convert infix to postfix using stack.",
+      "challenge": "Write a function to convert infix expression to postfix.",
+      "starterCode": "function infixToPostfix(exp){\n const stack=[], result='';\n}"
+    },
+    {
+      "id": 20,
+      "title": "Histogram Max Area",
+      "example": "Find largest area in histogram using stack.",
+      "challenge": "Implement the histogram area problem using stack logic.",
+      "starterCode": "function largestRectangleArea(heights){\n const stack=[];\n}\nconsole.log(largestRectangleArea([2,1,5,6,2,3]));"
+    }
+]
+  

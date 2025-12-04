@@ -1,0 +1,353 @@
+[
+    {
+      "id": 1,
+      "story": "You’re developing a signal processing system in electronics.",
+      "question": "Which array operation would best smooth a noisy signal?",
+      "options": ["Filter", "Sort", "Reverse", "Rotate"],
+      "answer": "Filter"
+    },
+    {
+      "id": 2,
+      "story": "You’re coding a temperature monitoring system.",
+      "question": "Which array element gives the highest temperature reading?",
+      "options": ["min()", "max()", "sum()", "average()"],
+      "answer": "max()"
+    },
+    {
+      "id": 3,
+      "story": "A mechanical engineer stores vibration data readings in an array.",
+      "question": "Which operation helps remove duplicate readings?",
+      "options": ["concat()", "unique()", "reverse()", "pop()"],
+      "answer": "unique()"
+    },
+    {
+      "id": 4,
+      "story": "You’re building a data analytics dashboard.",
+      "question": "Which array function would calculate total sales?",
+      "options": ["reduce()", "map()", "filter()", "slice()"],
+      "answer": "reduce()"
+    },
+    {
+      "id": 5,
+      "story": "You’re implementing a grading system.",
+      "question": "Which array operation is used to find all students scoring above 80?",
+      "options": ["map()", "filter()", "reduce()", "concat()"],
+      "answer": "filter()"
+    },
+    {
+      "id": 6,
+      "story": "An AI engineer stores prediction probabilities in an array.",
+      "question": "Which operation identifies the most confident prediction?",
+      "options": ["max()", "min()", "sort()", "shift()"],
+      "answer": "max()"
+    },
+    {
+      "id": 7,
+      "story": "You’re working on an image processing algorithm.",
+      "question": "Which array represents a pixel’s RGB values?",
+      "options": ["[255, 255, 255]", "[x, y]", "[1]", "['red', 'green', 'blue']"],
+      "answer": "[255, 255, 255]"
+    },
+    {
+      "id": 8,
+      "story": "You are building an IoT system that logs sensor data.",
+      "question": "Which array method adds a new reading at the end?",
+      "options": ["push()", "pop()", "shift()", "unshift()"],
+      "answer": "push()"
+    },
+    {
+      "id": 9,
+      "story": "A data engineer stores daily rainfall readings in an array.",
+      "question": "Which function helps to find the average rainfall?",
+      "options": ["sum()/length", "filter()", "sort()", "slice()"],
+      "answer": "sum()/length"
+    },
+    {
+      "id": 10,
+      "story": "You’re optimizing a search algorithm.",
+      "question": "Which searching technique works best on sorted arrays?",
+      "options": ["Linear Search", "Binary Search", "Hash Search", "DFS"],
+      "answer": "Binary Search"
+    },
+    {
+      "id": 11,
+      "story": "You’re coding a scheduling system for tasks.",
+      "question": "Which array method removes the first task?",
+      "options": ["pop()", "shift()", "slice()", "splice()"],
+      "answer": "shift()"
+    },
+    {
+      "id": 12,
+      "story": "An aerospace engineer stores altitude readings in arrays.",
+      "question": "What operation helps detect sudden drops?",
+      "options": ["Difference of consecutive elements", "Sum", "Sort", "Concat"],
+      "answer": "Difference of consecutive elements"
+    },
+    {
+      "id": 13,
+      "story": "You are creating a database of student marks.",
+      "question": "Which array method sorts marks from low to high?",
+      "options": ["sort()", "reverse()", "filter()", "map()"],
+      "answer": "sort()"
+    },
+    {
+      "id": 14,
+      "story": "A robotics engineer logs distances from sensors.",
+      "question": "Which array operation helps in finding the minimum distance?",
+      "options": ["Math.min(...arr)", "filter()", "concat()", "reverse()"],
+      "answer": "Math.min(...arr)"
+    },
+    {
+      "id": 15,
+      "story": "You’re training a neural network.",
+      "question": "Which array stores the neuron weights?",
+      "options": ["Scalar", "Matrix", "Queue", "Stack"],
+      "answer": "Matrix"
+    },
+    {
+      "id": 16,
+      "story": "You are analyzing traffic flow data.",
+      "question": "Which operation reverses car counts by hour?",
+      "options": ["reverse()", "map()", "filter()", "slice()"],
+      "answer": "reverse()"
+    },
+    {
+      "id": 17,
+      "story": "A biomedical engineer stores heart rate readings.",
+      "question": "Which function identifies abnormal spikes?",
+      "options": ["filter()", "concat()", "reduce()", "sort()"],
+      "answer": "filter()"
+    },
+    {
+      "id": 18,
+      "story": "You are simulating CPU scheduling using arrays.",
+      "question": "Which operation finds the process with the smallest burst time?",
+      "options": ["min()", "max()", "sort()", "reduce()"],
+      "answer": "min()"
+    },
+    {
+      "id": 19,
+      "story": "An electronics student records voltage readings.",
+      "question": "Which operation merges readings from two sensors?",
+      "options": ["concat()", "filter()", "map()", "reduce()"],
+      "answer": "concat()"
+    },
+    {
+      "id": 20,
+      "story": "A data science student normalizes data arrays.",
+      "question": "Which formula is correct for normalization?",
+      "options": ["(x-min)/(max-min)", "x/max", "x-min", "x/max-min"],
+      "answer": "(x-min)/(max-min)"
+    },
+    {
+      "id": 21,
+      "story": "A CS student implements matrix multiplication.",
+      "question": "Which structure is used to store a 2D matrix?",
+      "options": ["Array of Arrays", "Linked List", "Stack", "Queue"],
+      "answer": "Array of Arrays"
+    },
+    {
+      "id": 22,
+      "story": "You’re writing a sorting program in C.",
+      "question": "Which algorithm uses array swapping repeatedly?",
+      "options": ["Bubble Sort", "Merge Sort", "Quick Sort", "Insertion Sort"],
+      "answer": "Bubble Sort"
+    },
+    {
+      "id": 23,
+      "story": "An electrical student measures signal amplitude.",
+      "question": "Which function computes mean amplitude?",
+      "options": ["reduce()/length", "sort()", "concat()", "filter()"],
+      "answer": "reduce()/length"
+    },
+    {
+      "id": 24,
+      "story": "You’re simulating a conveyor belt system.",
+      "question": "Which operation rotates the array to simulate movement?",
+      "options": ["shift() + push()", "reverse()", "slice()", "sort()"],
+      "answer": "shift() + push()"
+    },
+    {
+      "id": 25,
+      "story": "You are storing color intensities in image pixels.",
+      "question": "Which array property gives number of pixels?",
+      "options": ["length", "size", "count", "index"],
+      "answer": "length"
+    },
+    {
+      "id": 26,
+      "story": "You’re processing exam results in a portal.",
+      "question": "Which operation creates a new array with squared marks?",
+      "options": ["map()", "reduce()", "filter()", "slice()"],
+      "answer": "map()"
+    },
+    {
+      "id": 27,
+      "story": "You’re simulating wave motion.",
+      "question": "Which function shifts array elements cyclically?",
+      "options": ["rotate()", "shift()", "reverse()", "sort()"],
+      "answer": "rotate()"
+    },
+    {
+      "id": 28,
+      "story": "A mechanical student analyzes sensor patterns.",
+      "question": "Which array algorithm detects a repeated pattern?",
+      "options": ["Sliding Window", "Stack", "DFS", "Greedy"],
+      "answer": "Sliding Window"
+    },
+    {
+      "id": 29,
+      "story": "An AI student stores loss values after each epoch.",
+      "question": "Which operation finds the epoch with least loss?",
+      "options": ["min()", "max()", "reduce()", "sort()"],
+      "answer": "min()"
+    },
+    {
+      "id": 30,
+      "story": "You are building a playlist organizer.",
+      "question": "Which array method adds songs at the beginning?",
+      "options": ["unshift()", "push()", "splice()", "slice()"],
+      "answer": "unshift()"
+    },
+    {
+      "id": 31,
+      "story": "A student records CPU usage in an array.",
+      "question": "Which function finds continuous high-usage segments?",
+      "options": ["Sliding Window", "Binary Search", "Recursion", "Stack"],
+      "answer": "Sliding Window"
+    },
+    {
+      "id": 32,
+      "story": "You are analyzing light intensity values.",
+      "question": "Which array algorithm helps find maximum subarray sum?",
+      "options": ["Kadane’s Algorithm", "Merge Sort", "DFS", "Quick Sort"],
+      "answer": "Kadane’s Algorithm"
+    },
+    {
+      "id": 33,
+      "story": "You’re coding a frequency counter for words.",
+      "question": "Which structure pairs words with their counts?",
+      "options": ["Array of Objects", "Set", "Stack", "Queue"],
+      "answer": "Array of Objects"
+    },
+    {
+      "id": 34,
+      "story": "You’re simulating temperature prediction errors.",
+      "question": "Which function finds deviation from average?",
+      "options": ["map()", "filter()", "reduce()", "slice()"],
+      "answer": "map()"
+    },
+    {
+      "id": 35,
+      "story": "An automotive engineer stores speed readings.",
+      "question": "Which array operation reverses acceleration trend?",
+      "options": ["reverse()", "filter()", "sort()", "concat()"],
+      "answer": "reverse()"
+    },
+    {
+      "id": 36,
+      "story": "You’re developing a physics experiment simulator.",
+      "question": "Which array operation removes the last result?",
+      "options": ["pop()", "shift()", "slice()", "unshift()"],
+      "answer": "pop()"
+    },
+    {
+      "id": 37,
+      "story": "A biomedical engineer collects ECG wave samples.",
+      "question": "Which array operation merges multiple leads' data?",
+      "options": ["concat()", "map()", "reduce()", "splice()"],
+      "answer": "concat()"
+    },
+    {
+      "id": 38,
+      "story": "A civil engineer analyzes load distribution data.",
+      "question": "Which operation finds uneven load points?",
+      "options": ["filter()", "reverse()", "map()", "reduce()"],
+      "answer": "filter()"
+    },
+    {
+      "id": 39,
+      "story": "You’re coding a movie recommendation system.",
+      "question": "Which array operation sorts by highest rating?",
+      "options": ["sort()", "filter()", "slice()", "reduce()"],
+      "answer": "sort()"
+    },
+    {
+      "id": 40,
+      "story": "An embedded developer stores memory bytes in an array.",
+      "question": "Which operation reads data sequentially?",
+      "options": ["for loop", "map()", "filter()", "sort()"],
+      "answer": "for loop"
+    },
+    {
+      "id": 41,
+      "story": "You’re coding a pathfinding algorithm for robotics.",
+      "question": "Which array operation stores the shortest path sequence?",
+      "options": ["push()", "map()", "concat()", "filter()"],
+      "answer": "push()"
+    },
+    {
+      "id": 42,
+      "story": "You’re training a model on numerical datasets.",
+      "question": "Which array operation normalizes data values?",
+      "options": ["map()", "sort()", "filter()", "splice()"],
+      "answer": "map()"
+    },
+    {
+      "id": 43,
+      "story": "You’re coding an attendance tracking system.",
+      "question": "Which operation counts the number of presents?",
+      "options": ["filter().length", "map()", "sort()", "slice()"],
+      "answer": "filter().length"
+    },
+    {
+      "id": 44,
+      "story": "A control engineer measures system response times.",
+      "question": "Which array operation finds the fastest response?",
+      "options": ["min()", "max()", "reduce()", "concat()"],
+      "answer": "min()"
+    },
+    {
+      "id": 45,
+      "story": "You’re designing a resource allocation algorithm.",
+      "question": "Which data structure stores resources linearly?",
+      "options": ["Array", "Stack", "Queue", "Tree"],
+      "answer": "Array"
+    },
+    {
+      "id": 46,
+      "story": "A mechanical engineer logs torque readings.",
+      "question": "Which function computes the maximum torque?",
+      "options": ["max()", "min()", "reduce()", "sort()"],
+      "answer": "max()"
+    },
+    {
+      "id": 47,
+      "story": "An AI project stores output class probabilities.",
+      "question": "Which operation extracts the top prediction?",
+      "options": ["argmax()", "sort()", "filter()", "concat()"],
+      "answer": "argmax()"
+    },
+    {
+      "id": 48,
+      "story": "You are writing a C program for array traversal.",
+      "question": "Which index is invalid for array of size 5?",
+      "options": ["0", "1", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": 49,
+      "story": "A civil engineer tracks beam deflection at points.",
+      "question": "Which operation removes faulty sensor value?",
+      "options": ["splice()", "filter()", "concat()", "shift()"],
+      "answer": "splice()"
+    },
+    {
+      "id": 50,
+      "story": "A software engineer develops sorting visualization.",
+      "question": "Which algorithm uses divide and conquer on arrays?",
+      "options": ["Merge Sort", "Bubble Sort", "Selection Sort", "Insertion Sort"],
+      "answer": "Merge Sort"
+    }
+  ]
+  

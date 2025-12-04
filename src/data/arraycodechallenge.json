@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "title": "Find Maximum Marks",
+      "example": "function findMax(marks){ return Math.max(...marks); }\nconsole.log(findMax([85, 92, 78, 96])); // 96",
+      "challenge": "Write a function to find the maximum marks obtained by a student from an array of marks.",
+      "starterCode": "function findMax(marks){\n  // Your logic here\n}\nconsole.log(findMax([85, 92, 78, 96]));"
+    },
+    {
+      "id": 2,
+      "title": "Average of Sensor Readings",
+      "example": "function average(readings){ return readings.reduce((a,b)=>a+b,0)/readings.length; }\nconsole.log(average([10,20,30,40])); // 25",
+      "challenge": "Given an array of sensor readings, calculate the average value.",
+      "starterCode": "function average(readings){\n  // Calculate average\n}\nconsole.log(average([10,20,30,40]));"
+    },
+    {
+      "id": 3,
+      "title": "Reverse an Array",
+      "example": "function reverseArray(arr){ return arr.reverse(); }\nconsole.log(reverseArray([1,2,3,4])); // [4,3,2,1]",
+      "challenge": "Reverse the given array without using the built-in reverse() function.",
+      "starterCode": "function reverseArray(arr){\n  // Use two-pointer or loop\n}\nconsole.log(reverseArray([1,2,3,4]));"
+    },
+    {
+      "id": 4,
+      "title": "Find Even Roll Numbers",
+      "example": "function evenRolls(arr){ return arr.filter(x => x % 2 === 0); }\nconsole.log(evenRolls([101,102,103,104])); // [102,104]",
+      "challenge": "Given an array of roll numbers, return only the even roll numbers.",
+      "starterCode": "function evenRolls(arr){\n  // Filter logic\n}\nconsole.log(evenRolls([101,102,103,104]));"
+    },
+    {
+      "id": 5,
+      "title": "Sum of Circuit Resistances",
+      "example": "function totalResistance(res){ return res.reduce((a,b)=>a+b,0); }\nconsole.log(totalResistance([10,20,30])); // 60",
+      "challenge": "Find the total resistance in a series circuit represented as an array of resistances.",
+      "starterCode": "function totalResistance(res){\n  // Add all resistances\n}\nconsole.log(totalResistance([10,20,30]));"
+    },
+    {
+      "id": 6,
+      "title": "Second Highest Marks",
+      "example": "function secondHighest(arr){ let max=Math.max(...arr); arr=arr.filter(x=>x!=max); return Math.max(...arr); }\nconsole.log(secondHighest([88,95,92,89])); // 92",
+      "challenge": "Find the second highest marks in an array of students’ marks.",
+      "starterCode": "function secondHighest(arr){\n  // Find 2nd max\n}\nconsole.log(secondHighest([88,95,92,89]));"
+    },
+    {
+      "id": 7,
+      "title": "Temperature Conversion",
+      "example": "function toCelsius(arr){ return arr.map(f => (f-32)*5/9); }\nconsole.log(toCelsius([32, 68, 104])); // [0,20,40]",
+      "challenge": "Convert an array of temperatures from Fahrenheit to Celsius.",
+      "starterCode": "function toCelsius(arr){\n  // Convert each element\n}\nconsole.log(toCelsius([32, 68, 104]));"
+    },
+    {
+      "id": 8,
+      "title": "Count Passing Students",
+      "example": "function countPass(marks){ return marks.filter(m=>m>=35).length; }\nconsole.log(countPass([20,45,65,30,90])); // 3",
+      "challenge": "Count how many students have scored more than or equal to 35 marks.",
+      "starterCode": "function countPass(marks){\n  // Count logic\n}\nconsole.log(countPass([20,45,65,30,90]));"
+    },
+    {
+      "id": 9,
+      "title": "Find Duplicate Sensor Values",
+      "example": "function findDuplicates(arr){ return arr.filter((v,i)=>arr.indexOf(v)!==i); }\nconsole.log(findDuplicates([2,4,6,2,6,8])); // [2,6]",
+      "challenge": "Detect duplicate values in an array of sensor readings.",
+      "starterCode": "function findDuplicates(arr){\n  // Logic to find duplicates\n}\nconsole.log(findDuplicates([2,4,6,2,6,8]));"
+    },
+    {
+      "id": 10,
+      "title": "Matrix Row Sum",
+      "example": "function rowSum(matrix){ return matrix.map(r=>r.reduce((a,b)=>a+b,0)); }\nconsole.log(rowSum([[1,2,3],[4,5,6]])); // [6,15]",
+      "challenge": "Given a 2D array (matrix) of numbers, return an array containing the sum of each row.",
+      "starterCode": "function rowSum(matrix){\n  // Compute row-wise sum\n}\nconsole.log(rowSum([[1,2,3],[4,5,6]]));"
+    },
+    {
+      "id": 11,
+      "title": "Merge Two Arrays",
+      "example": "function mergeArrays(a,b){ return [...a,...b]; }\nconsole.log(mergeArrays([1,2],[3,4])); // [1,2,3,4]",
+      "challenge": "Merge two sorted arrays into one sorted array.",
+      "starterCode": "function mergeArrays(a,b){\n  // Merge sorted arrays\n}\nconsole.log(mergeArrays([1,3,5],[2,4,6]));"
+    },
+    {
+      "id": 12,
+      "title": "Array Rotation",
+      "example": "function rotate(arr,k){ k%=arr.length; return arr.slice(-k).concat(arr.slice(0,-k)); }\nconsole.log(rotate([1,2,3,4,5],2)); // [4,5,1,2,3]",
+      "challenge": "Rotate the array by ‘k’ positions to the right.",
+      "starterCode": "function rotate(arr,k){\n  // Rotation logic\n}\nconsole.log(rotate([1,2,3,4,5],2));"
+    },
+    {
+      "id": 13,
+      "title": "Find Missing Roll Number",
+      "example": "function findMissing(arr,n){ let sum=n*(n+1)/2; return sum-arr.reduce((a,b)=>a+b,0); }\nconsole.log(findMissing([1,2,4,5],5)); // 3",
+      "challenge": "Given roll numbers from 1 to N with one missing, find the missing roll number.",
+      "starterCode": "function findMissing(arr,n){\n  // Find missing number\n}\nconsole.log(findMissing([1,2,4,5],5));"
+    },
+    {
+      "id": 14,
+      "title": "Sort Marks in Ascending Order",
+      "example": "function sortMarks(arr){ return arr.sort((a,b)=>a-b); }\nconsole.log(sortMarks([55,22,99,70])); // [22,55,70,99]",
+      "challenge": "Sort an array of marks in ascending order without using the built-in sort method.",
+      "starterCode": "function sortMarks(arr){\n  // Implement sorting logic\n}\nconsole.log(sortMarks([55,22,99,70]));"
+    },
+    {
+      "id": 15,
+      "title": "Calculate CGPA",
+      "example": "function calcCGPA(grades){ return (grades.reduce((a,b)=>a+b,0)/grades.length)/9.5; }\nconsole.log(calcCGPA([85,90,80,95]));",
+      "challenge": "Calculate the CGPA of a student given an array of subject marks (out of 100).",
+      "starterCode": "function calcCGPA(grades){\n  // Compute CGPA\n}\nconsole.log(calcCGPA([85,90,80,95]));"
+    },
+    {
+      "id": 16,
+      "title": "Check Array Symmetry",
+      "example": "function isSymmetric(arr){ for(let i=0;i<arr.length/2;i++){ if(arr[i]!==arr[arr.length-1-i]) return false; } return true; }\nconsole.log(isSymmetric([1,2,3,2,1])); // true",
+      "challenge": "Check if the array is symmetric (reads same forward and backward).",
+      "starterCode": "function isSymmetric(arr){\n  // Check symmetry\n}\nconsole.log(isSymmetric([1,2,3,2,1]));"
+    },
+    {
+      "id": 17,
+      "title": "Find Frequency of Elements",
+      "example": "function frequency(arr){ const map={}; for(let x of arr){ map[x]=(map[x]||0)+1; } return map; }\nconsole.log(frequency([2,3,2,4,3,2]));",
+      "challenge": "Count the frequency of each number in an array of readings.",
+      "starterCode": "function frequency(arr){\n  // Count elements\n}\nconsole.log(frequency([2,3,2,4,3,2]));"
+    },
+    {
+      "id": 18,
+      "title": "Pair Sum Problem",
+      "example": "function hasPair(arr,target){ const set=new Set(); for(let x of arr){ if(set.has(target-x)) return true; set.add(x);} return false; }\nconsole.log(hasPair([2,7,11,15],9)); // true",
+      "challenge": "Given an array and a target, check if any two elements sum to the target (useful in circuit analysis).",
+      "starterCode": "function hasPair(arr,target){\n  // Pair sum logic\n}\nconsole.log(hasPair([2,7,11,15],9));"
+    },
+    {
+      "id": 19,
+      "title": "Remove Negative Values",
+      "example": "function removeNegatives(arr){ return arr.filter(x=>x>=0); }\nconsole.log(removeNegatives([-2,5,-1,3])); // [5,3]",
+      "challenge": "Remove all negative sensor readings from an array.",
+      "starterCode": "function removeNegatives(arr){\n  // Remove negative numbers\n}\nconsole.log(removeNegatives([-2,5,-1,3]));"
+    },
+    {
+      "id": 20,
+      "title": "Find Median of Data",
+      "example": "function median(arr){ arr.sort((a,b)=>a-b); let mid=Math.floor(arr.length/2); return arr.length%2?arr[mid]:(arr[mid-1]+arr[mid])/2; }\nconsole.log(median([5,3,8,2,9])); // 5",
+      "challenge": "Find the median of an array of experimental data points.",
+      "starterCode": "function median(arr){\n  // Find median\n}\nconsole.log(median([5,3,8,2,9]));"
+    }
+  ]
+  

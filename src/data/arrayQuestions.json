@@ -1,0 +1,603 @@
+[
+    {
+      "id": 1,
+      "question": "What is an array?",
+      "options": ["Collection of elements of different types", "Collection of elements of same type stored in contiguous memory", "Linked list of elements", "Dynamic list of variables"],
+      "answer": "Collection of elements of same type stored in contiguous memory"
+    },
+    {
+      "id": 2,
+      "question": "What is the index of the first element in an array?",
+      "options": ["0", "1", "-1", "Depends on compiler"],
+      "answer": "0"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following can store multiple values of same type?",
+      "options": ["Variable", "Array", "Pointer", "Structure"],
+      "answer": "Array"
+    },
+    {
+      "id": 4,
+      "question": "What is the time complexity of accessing an element in an array?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "answer": "O(1)"
+    },
+    {
+      "id": 5,
+      "question": "Which of these is true about array size in C?",
+      "options": ["It can change during execution", "It is fixed after declaration", "It depends on user input", "None"],
+      "answer": "It is fixed after declaration"
+    },
+    {
+      "id": 6,
+      "question": "What is the maximum number of dimensions an array can have in C?",
+      "options": ["1", "2", "3", "Any number"],
+      "answer": "Any number"
+    },
+    {
+      "id": 7,
+      "question": "In C, arrays are always passed to functions as?",
+      "options": ["Value", "Reference", "Pointer", "Constant"],
+      "answer": "Pointer"
+    },
+    {
+      "id": 8,
+      "question": "What is the formula to calculate address of element in 1D array?",
+      "options": ["Base + index × size", "Base × index + size", "Base + size", "Base × size"],
+      "answer": "Base + index × size"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is not a valid array declaration?",
+      "options": ["int arr[5];", "float arr[] = {1,2,3};", "char arr[3] = 'abc';", "int arr[3] = {1,2,3};"],
+      "answer": "char arr[3] = 'abc';"
+    },
+    {
+      "id": 10,
+      "question": "Which of these correctly initializes a 2D array?",
+      "options": ["int a[2][3] = {{1,2,3},{4,5,6}};", "int a[2,3] = {1,2,3,4,5,6};", "int a = [2][3];", "int a[2][3] = (1,2,3,4,5,6);"],
+      "answer": "int a[2][3] = {{1,2,3},{4,5,6}};"
+    },
+    {
+      "id": 11,
+      "question": "Which operation is not possible directly in an array?",
+      "options": ["Traversal", "Insertion at middle", "Updation", "Access by index"],
+      "answer": "Insertion at middle"
+    },
+    {
+      "id": 12,
+      "question": "Array elements are always stored in?",
+      "options": ["Sequential memory locations", "Random memory locations", "Heap memory", "Stack memory"],
+      "answer": "Sequential memory locations"
+    },
+    {
+      "id": 13,
+      "question": "Which of the following operations takes O(n) time in arrays?",
+      "options": ["Access", "Search", "Update", "Get length"],
+      "answer": "Search"
+    },
+    {
+      "id": 14,
+      "question": "If an array has 10 elements, what is the last index?",
+      "options": ["10", "9", "11", "8"],
+      "answer": "9"
+    },
+    {
+      "id": 15,
+      "question": "Which type of array has rows and columns?",
+      "options": ["1D array", "2D array", "Jagged array", "Pointer array"],
+      "answer": "2D array"
+    },
+    {
+      "id": 16,
+      "question": "What is the main disadvantage of arrays?",
+      "options": ["Random access", "Fixed size", "Sequential storage", "Easy sorting"],
+      "answer": "Fixed size"
+    },
+    {
+      "id": 17,
+      "question": "What is a jagged array?",
+      "options": ["Array of arrays with different column sizes", "2D array with equal rows", "1D array", "Linked array"],
+      "answer": "Array of arrays with different column sizes"
+    },
+    {
+      "id": 18,
+      "question": "Which traversal technique is used in arrays?",
+      "options": ["Linear traversal", "Random traversal", "Recursive traversal", "Tree traversal"],
+      "answer": "Linear traversal"
+    },
+    {
+      "id": 19,
+      "question": "In an array of size n, what is the time complexity to insert at end?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "answer": "O(1)"
+    },
+    {
+      "id": 20,
+      "question": "Array index must be of which type?",
+      "options": ["float", "int", "char", "double"],
+      "answer": "int"
+    },
+    {
+      "id": 21,
+      "question": "Which algorithm commonly uses arrays?",
+      "options": ["Binary search", "Depth first search", "Dijkstra’s", "Kruskal’s"],
+      "answer": "Binary search"
+    },
+    {
+      "id": 22,
+      "question": "What is the time complexity of linear search in an array?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "answer": "O(n)"
+    },
+    {
+      "id": 23,
+      "question": "Which of these is true for dynamic arrays?",
+      "options": ["Size can grow or shrink", "Fixed size", "Stored in stack", "Static allocation"],
+      "answer": "Size can grow or shrink"
+    },
+    {
+      "id": 24,
+      "question": "In C, which header is needed to use dynamic arrays using malloc?",
+      "options": ["<string.h>", "<stdlib.h>", "<stdio.h>", "<math.h>"],
+      "answer": "<stdlib.h>"
+    },
+    {
+      "id": 25,
+      "question": "What does sizeof(arr)/sizeof(arr[0]) give in C?",
+      "options": ["Total memory", "Number of elements", "First element", "Address of array"],
+      "answer": "Number of elements"
+    },
+    {
+      "id": 26,
+      "question": "What is the best case time complexity of linear search?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "answer": "O(1)"
+    },
+    {
+      "id": 27,
+      "question": "Which of the following is NOT a type of array?",
+      "options": ["One-dimensional", "Two-dimensional", "Three-dimensional", "Hierarchical"],
+      "answer": "Hierarchical"
+    },
+    {
+      "id": 28,
+      "question": "Which sorting technique is easiest to implement with arrays?",
+      "options": ["Bubble Sort", "Quick Sort", "Merge Sort", "Heap Sort"],
+      "answer": "Bubble Sort"
+    },
+    {
+      "id": 29,
+      "question": "Which of these statements is FALSE about arrays?",
+      "options": ["Elements are stored sequentially", "Elements can be of different types", "Index starts from 0", "All elements are of same type"],
+      "answer": "Elements can be of different types"
+    },
+    {
+      "id": 30,
+      "question": "Which of the following can cause array overflow?",
+      "options": ["Accessing out of index", "Accessing valid index", "Traversing from start", "Updating element"],
+      "answer": "Accessing out of index"
+    },
+    {
+      "id": 31,
+      "question": "What will happen if we access arr[10] in an array of size 5?",
+      "options": ["Error or crash", "Prints garbage", "Returns 0", "Ignores access"],
+      "answer": "Error or crash"
+    },
+    {
+      "id": 32,
+      "question": "Which searching algorithm requires sorted array?",
+      "options": ["Linear search", "Binary search", "Jump search", "Both Binary and Jump search"],
+      "answer": "Both Binary and Jump search"
+    },
+    {
+      "id": 33,
+      "question": "Which of these applications use arrays?",
+      "options": ["Matrix operations", "Polynomial representation", "Image processing", "All of these"],
+      "answer": "All of these"
+    },
+    {
+      "id": 34,
+      "question": "Which function in C dynamically allocates memory for an array?",
+      "options": ["malloc()", "calloc()", "realloc()", "All of these"],
+      "answer": "calloc()"
+    },
+    {
+      "id": 35,
+      "question": "Which of the following can be represented using 2D array?",
+      "options": ["Matrix", "Table", "Chess board", "All of these"],
+      "answer": "All of these"
+    },
+    {
+      "id": 36,
+      "question": "Which type of array allocation happens at runtime?",
+      "options": ["Static", "Dynamic", "Fixed", "Constant"],
+      "answer": "Dynamic"
+    },
+    {
+      "id": 37,
+      "question": "What is the advantage of arrays over linked lists?",
+      "options": ["Faster access", "Dynamic size", "Less memory usage", "Easier insertion"],
+      "answer": "Faster access"
+    },
+    {
+      "id": 38,
+      "question": "What is stored in an array element?",
+      "options": ["Address", "Value", "Pointer", "Reference only"],
+      "answer": "Value"
+    },
+    {
+      "id": 39,
+      "question": "Which type of search divides the array into halves?",
+      "options": ["Linear", "Binary", "Jump", "Hash"],
+      "answer": "Binary"
+    },
+    {
+      "id": 40,
+      "question": "Which algorithm is most efficient for sorted arrays?",
+      "options": ["Binary search", "Linear search", "Jump search", "Hashing"],
+      "answer": "Binary search"
+    },
+    {
+      "id": 41,
+      "question": "Which function in C is used to release memory allocated to an array?",
+      "options": ["free()", "delete()", "remove()", "clear()"],
+      "answer": "free()"
+    },
+    {
+      "id": 42,
+      "question": "In C, what is the base address of an array?",
+      "options": ["Address of first element", "Address of last element", "Random address", "Depends on compiler"],
+      "answer": "Address of first element"
+    },
+    {
+      "id": 43,
+      "question": "What will sizeof(int[10]) return if int takes 4 bytes?",
+      "options": ["10", "40", "4", "20"],
+      "answer": "40"
+    },
+    {
+      "id": 44,
+      "question": "What is a multidimensional array?",
+      "options": ["Array with multiple rows and columns", "Array inside a loop", "Array with single row", "Array of functions"],
+      "answer": "Array with multiple rows and columns"
+    },
+    {
+      "id": 45,
+      "question": "Which memory allocation type is used for static arrays?",
+      "options": ["Stack", "Heap", "Disk", "Register"],
+      "answer": "Stack"
+    },
+    {
+      "id": 46,
+      "question": "In C, array elements can be accessed using?",
+      "options": ["Index", "Pointer arithmetic", "Both A and B", "None"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 47,
+      "question": "If an array has 5 elements, valid indices are?",
+      "options": ["0 to 5", "1 to 5", "0 to 4", "-1 to 4"],
+      "answer": "0 to 4"
+    },
+    {
+      "id": 48,
+      "question": "Which keyword is not used for declaring arrays in C?",
+      "options": ["int", "float", "array", "char"],
+      "answer": "array"
+    },
+    {
+      "id": 49,
+      "question": "Which operator is used to access elements in an array?",
+      "options": [".", "->", "[]", "&"],
+      "answer": "[]"
+    },
+    {
+      "id": 50,
+      "question": "What is the output of sizeof(arr)/sizeof(arr[0]) if arr[5]={1,2,3,4,5}?",
+      "options": ["1", "4", "5", "20"],
+      "answer": "5"
+    },
+    {
+      "id": 51,
+      "question": "Which is the correct declaration for a 3D array?",
+      "options": ["int arr[2][3][4];", "int arr(2,3,4);", "int arr{2,3,4};", "int arr[2,3,4];"],
+      "answer": "int arr[2][3][4];"
+    },
+    {
+      "id": 52,
+      "question": "How many elements are there in int a[3][4]?",
+      "options": ["7", "12", "10", "8"],
+      "answer": "12"
+    },
+    {
+      "id": 53,
+      "question": "What is a sparse array?",
+      "options": ["Array with mostly zero values", "Array with dense values", "Sorted array", "Dynamic array"],
+      "answer": "Array with mostly zero values"
+    },
+    {
+      "id": 54,
+      "question": "Which of the following is used to copy array elements in C?",
+      "options": ["memcpy()", "copy()", "strcpy()", "assign()"],
+      "answer": "memcpy()"
+    },
+    {
+      "id": 55,
+      "question": "If an array is partially initialized, remaining elements are?",
+      "options": ["Set to zero", "Garbage values", "Undefined", "Same as first element"],
+      "answer": "Set to zero"
+    },
+    {
+      "id": 56,
+      "question": "In pointer arithmetic, arr + i points to?",
+      "options": ["(i+1)th element", "ith element", "Base address", "Last element"],
+      "answer": "(i+1)th element"
+    },
+    {
+      "id": 57,
+      "question": "Which of these cannot be done on arrays?",
+      "options": ["Sorting", "Reversing", "Direct resizing", "Searching"],
+      "answer": "Direct resizing"
+    },
+    {
+      "id": 58,
+      "question": "Which library function sorts an array in C?",
+      "options": ["sort()", "qsort()", "arraysort()", "sortArray()"],
+      "answer": "qsort()"
+    },
+    {
+      "id": 59,
+      "question": "Which of the following accesses the second row and third column in 2D array a[3][4]?",
+      "options": ["a[1][2]", "a[2][3]", "a[3][2]", "a[2][1]"],
+      "answer": "a[1][2]"
+    },
+    {
+      "id": 60,
+      "question": "Which of these statements is true for arrays?",
+      "options": ["Array name represents base address", "Array stores addresses only", "Array is dynamic by default", "Array elements are random"],
+      "answer": "Array name represents base address"
+    },
+    {
+      "id": 61,
+      "question": "In C, what does arr refer to in expression arr[i]?",
+      "options": ["Pointer to first element", "Value at index", "Size of array", "None"],
+      "answer": "Pointer to first element"
+    },
+    {
+      "id": 62,
+      "question": "How to declare an array of 10 integers in C?",
+      "options": ["int a[10];", "int a(10);", "array a[10];", "int[10] a;"],
+      "answer": "int a[10];"
+    },
+      {
+        "id": 63,
+        "question": "What happens if you assign one array to another directly in C?",
+        "options": ["All elements are copied", "Compilation error", "Only first element copied", "Runtime error"],
+        "answer": "Compilation error"
+      },
+      {
+        "id": 64,
+        "question": "Which function is used to reallocate array memory in C?",
+        "options": ["realloc()", "remalloc()", "resize()", "alloc()"],
+        "answer": "realloc()"
+      },
+      {
+        "id": 65,
+        "question": "Which of these is a valid array initialization?",
+        "options": ["int a[] = {1,2,3};", "int a[3] = 1,2,3;", "int a = {1,2,3};", "int a(3) = {1,2,3};"],
+        "answer": "int a[] = {1,2,3};"
+      },
+      {
+        "id": 66,
+        "question": "Which sorting algorithm uses repeated swapping of adjacent elements?",
+        "options": ["Bubble Sort", "Selection Sort", "Insertion Sort", "Merge Sort"],
+        "answer": "Bubble Sort"
+      },
+      {
+        "id": 67,
+        "question": "How can you reverse an array efficiently?",
+        "options": ["Swap elements from both ends", "Sort it descending", "Rotate it twice", "Use memcpy()"],
+        "answer": "Swap elements from both ends"
+      },
+      {
+        "id": 68,
+        "question": "What is the time complexity of traversing a 2D array?",
+        "options": ["O(n)", "O(n^2)", "O(log n)", "O(1)"],
+        "answer": "O(n^2)"
+      },
+      {
+        "id": 69,
+        "question": "Which of the following is an invalid array subscript?",
+        "options": ["a[0]", "a[-1]", "a[1]", "a[4]"],
+        "answer": "a[-1]"
+      },
+      {
+        "id": 70,
+        "question": "Which operation is used to shift all elements to right in array?",
+        "options": ["Rotation", "Right shift", "Swap", "Sort"],
+        "answer": "Right shift"
+      },
+      {
+        "id": 71,
+        "question": "Which of these cannot be multidimensional?",
+        "options": ["int array", "float array", "char array", "Pointer variable"],
+        "answer": "Pointer variable"
+      },
+      {
+        "id": 72,
+        "question": "Which notation is used to access array elements?",
+        "options": ["Subscript notation", "Function notation", "Dot notation", "Arrow notation"],
+        "answer": "Subscript notation"
+      },
+      {
+        "id": 73,
+        "question": "Which algorithm divides array elements for sorting?",
+        "options": ["Merge Sort", "Bubble Sort", "Insertion Sort", "Linear Sort"],
+        "answer": "Merge Sort"
+      },
+      {
+        "id": 74,
+        "question": "Which searching algorithm is faster for sorted arrays?",
+        "options": ["Binary Search", "Linear Search", "Jump Search", "Interpolation Search"],
+        "answer": "Binary Search"
+      },
+      {
+        "id": 75,
+        "question": "Which type of array allocation happens before program execution?",
+        "options": ["Static", "Dynamic", "Heap", "Runtime"],
+        "answer": "Static"
+      },
+      {
+        "id": 76,
+        "question": "What is the time complexity of insertion at beginning of array?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+        "answer": "O(n)"
+      },
+      {
+        "id": 77,
+        "question": "Which of the following represents array decay?",
+        "options": ["Array converted to pointer", "Pointer converted to array", "Array deleted", "Array resized"],
+        "answer": "Array converted to pointer"
+      },
+      {
+        "id": 78,
+        "question": "Which type of array is used to store string in C?",
+        "options": ["Char array", "Int array", "Double array", "Pointer array"],
+        "answer": "Char array"
+      },
+      {
+        "id": 79,
+        "question": "Which function reads a string into a char array?",
+        "options": ["gets()", "scanf()", "read()", "getline()"],
+        "answer": "gets()"
+      },
+      {
+        "id": 80,
+        "question": "How to find the middle element in array of size n?",
+        "options": ["arr[n/2]", "arr[(n+1)/2]", "arr[n-1]", "arr[0]"],
+        "answer": "arr[n/2]"
+      },
+      {
+        "id": 81,
+        "question": "Which header must be included for qsort() function?",
+        "options": ["<stdlib.h>", "<stdio.h>", "<string.h>", "<math.h>"],
+        "answer": "<stdlib.h>"
+      },
+      {
+        "id": 82,
+        "question": "Which array type can have variable number of columns?",
+        "options": ["Jagged array", "2D array", "Static array", "Sparse array"],
+        "answer": "Jagged array"
+      },
+      {
+        "id": 83,
+        "question": "In C, what is arr[i] equivalent to?",
+        "options": ["*(arr + i)", "*(i + arr)", "arr + i", "Both A and B"],
+        "answer": "Both A and B"
+      },
+      {
+        "id": 84,
+        "question": "Which sorting algorithm works best for small arrays?",
+        "options": ["Insertion Sort", "Merge Sort", "Quick Sort", "Heap Sort"],
+        "answer": "Insertion Sort"
+      },
+      {
+        "id": 85,
+        "question": "What is the output of accessing an uninitialized array element?",
+        "options": ["Garbage value", "Zero", "Error", "Null"],
+        "answer": "Garbage value"
+      },
+      {
+        "id": 86,
+        "question": "Which algorithm divides array into parts around a pivot?",
+        "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Bubble Sort"],
+        "answer": "Quick Sort"
+      },
+      {
+        "id": 87,
+        "question": "What is the index of last element in array of n elements?",
+        "options": ["n", "n-1", "n+1", "n/2"],
+        "answer": "n-1"
+      },
+      {
+        "id": 88,
+        "question": "Which function compares two arrays in C?",
+        "options": ["memcmp()", "strcmp()", "compare()", "equal()"],
+        "answer": "memcmp()"
+      },
+      {
+        "id": 89,
+        "question": "How can you pass an array to a function?",
+        "options": ["By pointer", "By value", "By copying", "Not possible"],
+        "answer": "By pointer"
+      },
+      {
+        "id": 90,
+        "question": "Which type of memory leak can occur in dynamic arrays?",
+        "options": ["If not freed using free()", "If array is static", "If array is global", "If array is in stack"],
+        "answer": "If not freed using free()"
+      },
+      {
+        "id": 91,
+        "question": "What is the size of int arr[4][5] if int is 2 bytes?",
+        "options": ["20", "40", "10", "8"],
+        "answer": "40"
+      },
+      {
+        "id": 92,
+        "question": "Which of the following can be used to initialize array partially?",
+        "options": ["int a[5] = {1,2};", "int a[5] = {1,2,3,4,5,6};", "int a = {1,2,3};", "int a[] = 1,2,3;"],
+        "answer": "int a[5] = {1,2};"
+      },
+      {
+        "id": 93,
+        "question": "What does the expression *(arr + i) mean?",
+        "options": ["Value at ith index", "Address of array", "Pointer to ith element", "Size of array"],
+        "answer": "Value at ith index"
+      },
+      {
+        "id": 94,
+        "question": "What is the default value of static array elements?",
+        "options": ["0", "Garbage", "Null", "Random"],
+        "answer": "0"
+      },
+      {
+        "id": 95,
+        "question": "Which function is used to initialize dynamic array with zero?",
+        "options": ["calloc()", "malloc()", "realloc()", "alloc()"],
+        "answer": "calloc()"
+      },
+      {
+        "id": 96,
+        "question": "Which loop is commonly used to traverse an array?",
+        "options": ["for loop", "while loop", "do-while loop", "All of these"],
+        "answer": "All of these"
+      },
+      {
+        "id": 97,
+        "question": "Which operation removes an element from array?",
+        "options": ["Shift elements left", "Assign 0", "Delete keyword", "Free()"],
+        "answer": "Shift elements left"
+      },
+      {
+        "id": 98,
+        "question": "What does arr+n represent in arrays?",
+        "options": ["Address of nth element", "Value of nth element", "Last element", "First element"],
+        "answer": "Address of nth element"
+      },
+      {
+        "id": 99,
+        "question": "Which searching algorithm compares elements one by one?",
+        "options": ["Linear Search", "Binary Search", "Jump Search", "Hashing"],
+        "answer": "Linear Search"
+      },
+      {
+        "id": 100,
+        "question": "What is the main purpose of arrays in programming?",
+        "options": ["To store multiple values of same type", "To execute loops", "To connect functions", "To display output"],
+        "answer": "To store multiple values of same type"
+      }
+  ]
+  

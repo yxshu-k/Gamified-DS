@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "story": "You're building a compiler's syntax analyzer.",
+    "question": "Arrange the brackets in the order they should be checked for balance.",
+    "options": ["(", "{", "["],
+    "answer": ["[", "{", "("]
+  },
+  {
+    "id": 2,
+    "story": "You’re debugging a recursive algorithm for factorial.",
+    "question": "Arrange recursive calls for factorial(4) (topmost = latest call).",
+    "options": ["fact(1)", "fact(2)", "fact(3)", "fact(4)"],
+    "answer": ["fact(4)", "fact(3)", "fact(2)", "fact(1)"]
+  },
+  {
+    "id": 3,
+    "story": "You’re designing an IDE’s undo system using stack.",
+    "question": "Arrange user actions in undo order.",
+    "options": ["Type ‘A’", "Type ‘B’", "Type ‘C’"],
+    "answer": ["Type ‘C’", "Type ‘B’", "Type ‘A’"]
+  },
+  {
+    "id": 4,
+    "story": "You’re implementing depth-first search in AI pathfinding.",
+    "question": "Arrange nodes in DFS visiting order (top = current node).",
+    "options": ["Start", "A", "B", "Goal"],
+    "answer": ["Goal", "B", "A", "Start"]
+  },
+  {
+    "id": 5,
+    "story": "A web browser developer wants to manage navigation history.",
+    "question": "Arrange pages in stack order as visited.",
+    "options": ["Home", "About", "Contact", "Blog"],
+    "answer": ["Blog", "Contact", "About", "Home"]
+  },
+  {
+    "id": 6,
+    "story": "You are developing a reverse string feature in an interview prep app.",
+    "question": "Arrange characters of 'DATA' in reversed stack order.",
+    "options": ["D", "A", "T", "A"],
+    "answer": ["A", "T", "A", "D"]
+  },
+  {
+    "id": 7,
+    "story": "You are optimizing a CPU call stack visualization tool.",
+    "question": "Arrange function calls from most recent to oldest.",
+    "options": ["main()", "helper()", "process()", "compute()"],
+    "answer": ["compute()", "process()", "helper()", "main()"]
+  },
+  {
+    "id": 8,
+    "story": "In your AI simulation, a robot uses stack to backtrack movements.",
+    "question": "Arrange movements in reverse order.",
+    "options": ["Left", "Right", "Up", "Down"],
+    "answer": ["Down", "Up", "Right", "Left"]
+  },
+  {
+    "id": 9,
+    "story": "You're designing a system for nested HTML tag validation.",
+    "question": "Arrange the tags as they would be pushed onto stack.",
+    "options": ["<html>", "<body>", "<div>", "<p>"],
+    "answer": ["<p>", "<div>", "<body>", "<html>"]
+  },
+  {
+    "id": 10,
+    "story": "A fintech system tracks transactions using LIFO for rollbacks.",
+    "question": "Arrange the transactions to undo in order.",
+    "options": ["Txn1", "Txn2", "Txn3"],
+    "answer": ["Txn3", "Txn2", "Txn1"]
+  },
+  {
+    "id": 11,
+    "story": "You’re designing a compiler for expression evaluation.",
+    "question": "Arrange the postfix expression (A+B)*C on stack.",
+    "options": ["A", "B", "+", "C", "*"],
+    "answer": ["*", "C", "+", "B", "A"]
+  },
+  {
+    "id": 12,
+    "story": "You're simulating undo feature in a graphic design tool.",
+    "question": "Arrange the drawing actions in stack order.",
+    "options": ["Draw Circle", "Draw Square", "Fill Color"],
+    "answer": ["Fill Color", "Draw Square", "Draw Circle"]
+  },
+  {
+    "id": 13,
+    "story": "You’re implementing a recursive maze solver.",
+    "question": "Arrange path nodes according to call stack.",
+    "options": ["Start", "A", "B", "Exit"],
+    "answer": ["Exit", "B", "A", "Start"]
+  },
+  {
+    "id": 14,
+    "story": "You're designing a call stack visualizer for C programmers.",
+    "question": "Arrange stack frames from top (current call) to bottom.",
+    "options": ["main", "foo", "bar", "baz"],
+    "answer": ["baz", "bar", "foo", "main"]
+  },
+  {
+    "id": 15,
+    "story": "You’re implementing a feature to reverse sentences using stack.",
+    "question": "Arrange the words in reverse order.",
+    "options": ["Hello", "from", "the", "Stack"],
+    "answer": ["Stack", "the", "from", "Hello"]
+  },
+  {
+    "id": 16,
+    "story": "A database system maintains rollback points using stacks.",
+    "question": "Arrange checkpoints in rollback order.",
+    "options": ["C1", "C2", "C3"],
+    "answer": ["C3", "C2", "C1"]
+  },
+  {
+    "id": 17,
+    "story": "A microcontroller handles nested interrupts using stack.",
+    "question": "Arrange interrupt calls from most recent to oldest.",
+    "options": ["INT1", "INT2", "INT3"],
+    "answer": ["INT3", "INT2", "INT1"]
+  },
+  {
+    "id": 18,
+    "story": "You're building a JavaScript recursion debugger.",
+    "question": "Arrange calls to recursive function fib(4).",
+    "options": ["fib(1)", "fib(2)", "fib(3)", "fib(4)"],
+    "answer": ["fib(4)", "fib(3)", "fib(2)", "fib(1)"]
+  },
+  {
+    "id": 19,
+    "story": "You are designing a neural network layer stack.",
+    "question": "Arrange layers as they are executed (top = latest).",
+    "options": ["Input", "Hidden1", "Hidden2", "Output"],
+    "answer": ["Output", "Hidden2", "Hidden1", "Input"]
+  },
+  {
+    "id": 20,
+    "story": "You are designing a backtracking algorithm for Sudoku.",
+    "question": "Arrange guesses on stack (top = latest).",
+    "options": ["Cell1", "Cell2", "Cell3"],
+    "answer": ["Cell3", "Cell2", "Cell1"]
+  },
+  {
+    "id": 21,
+    "story": "An operating system manages process calls using stack.",
+    "question": "Arrange processes from latest to oldest call.",
+    "options": ["Init", "User", "Kernel"],
+    "answer": ["Kernel", "User", "Init"]
+  },
+  {
+    "id": 22,
+    "story": "You’re implementing a text editor redo stack.",
+    "question": "Arrange redo operations in execution order.",
+    "options": ["Undo 1", "Undo 2", "Undo 3"],
+    "answer": ["Undo 3", "Undo 2", "Undo 1"]
+  },
+  {
+    "id": 23,
+    "story": "A blockchain developer maintains block validation stack.",
+    "question": "Arrange blocks as added to chain stack.",
+    "options": ["Block 1", "Block 2", "Block 3"],
+    "answer": ["Block 3", "Block 2", "Block 1"]
+  },
+  {
+    "id": 24,
+    "story": "A robotics student uses stack for motion history.",
+    "question": "Arrange movement states for backtracking.",
+    "options": ["Move1", "Move2", "Move3"],
+    "answer": ["Move3", "Move2", "Move1"]
+  },
+  {
+    "id": 25,
+    "story": "You are developing a function call tree analyzer.",
+    "question": "Arrange function calls by execution order.",
+    "options": ["main", "calc", "compute", "display"],
+    "answer": ["display", "compute", "calc", "main"]
+  },
+  {
+    "id": 26,
+    "story": "You’re designing an expression evaluator.",
+    "question": "Arrange operators in stack for A+B*C.",
+    "options": ["A", "B", "C", "+", "*"],
+    "answer": ["*", "+", "C", "B", "A"]
+  },
+  {
+    "id": 27,
+    "story": "An embedded system tracks function calls in stack memory.",
+    "question": "Arrange the calls from latest to earliest.",
+    "options": ["Boot", "Setup", "Loop"],
+    "answer": ["Loop", "Setup", "Boot"]
+  },
+  {
+    "id": 28,
+    "story": "You’re debugging a recursion error in Python.",
+    "question": "Arrange calls causing recursion depth error.",
+    "options": ["f1()", "f2()", "f3()"],
+    "answer": ["f3()", "f2()", "f1()"]
+  },
+  {
+    "id": 29,
+    "story": "You’re designing a music app undo stack for playlist changes.",
+    "question": "Arrange playlist edits by undo order.",
+    "options": ["Add Song", "Rename", "Delete"],
+    "answer": ["Delete", "Rename", "Add Song"]
+  },
+  {
+    "id": 30,
+    "story": "You are creating an algorithm to reverse a linked list using a stack.",
+    "question": "Arrange nodes as pushed to stack.",
+    "options": ["Node1", "Node2", "Node3"],
+    "answer": ["Node3", "Node2", "Node1"]
+  },
+  {
+    "id": 31,
+    "story": "A software engineer designs nested function stack monitoring tool.",
+    "question": "Arrange calls from deepest to shallowest.",
+    "options": ["init()", "setup()", "process()", "render()"],
+    "answer": ["render()", "process()", "setup()", "init()"]
+  },
+  {
+    "id": 32,
+    "story": "You're developing a postfix calculator app.",
+    "question": "Arrange stack contents after evaluating 23*4+.",
+    "options": ["2", "3", "4", "+", "*"],
+    "answer": ["*", "+", "4", "3", "2"]
+  },
+  {
+    "id": 33,
+    "story": "You’re creating a version control undo stack.",
+    "question": "Arrange commits as per rollback sequence.",
+    "options": ["Commit1", "Commit2", "Commit3"],
+    "answer": ["Commit3", "Commit2", "Commit1"]
+  },
+  {
+    "id": 34,
+    "story": "An AI agent simulates recursive DFS calls.",
+    "question": "Arrange visited nodes from latest to first.",
+    "options": ["A", "B", "C", "D"],
+    "answer": ["D", "C", "B", "A"]
+  },
+  {
+    "id": 35,
+    "story": "You’re teaching recursion to students using call stack demo.",
+    "question": "Arrange print statements for reverse recursion output.",
+    "options": ["print(1)", "print(2)", "print(3)"],
+    "answer": ["print(3)", "print(2)", "print(1)"]
+  },
+  {
+    "id": 36,
+    "story": "A compiler uses a stack for nested loops.",
+    "question": "Arrange loops according to nesting depth.",
+    "options": ["Outer", "Middle", "Inner"],
+    "answer": ["Inner", "Middle", "Outer"]
+  },
+  {
+    "id": 37,
+    "story": "You're implementing DFS for binary tree traversal.",
+    "question": "Arrange nodes in stack for traversal order.",
+    "options": ["Root", "Left", "Right"],
+    "answer": ["Right", "Left", "Root"]
+  },
+  {
+    "id": 38,
+    "story": "A cybersecurity student implements stack buffer simulation.",
+    "question": "Arrange bytes in memory stack order.",
+    "options": ["Byte1", "Byte2", "Byte3"],
+    "answer": ["Byte3", "Byte2", "Byte1"]
+  },
+  {
+    "id": 39,
+    "story": "A UI developer uses stack for screen navigation.",
+    "question": "Arrange screens in LIFO order.",
+    "options": ["Home", "Settings", "Profile"],
+    "answer": ["Profile", "Settings", "Home"]
+  },
+  {
+    "id": 40,
+    "story": "You’re simulating recursive file search.",
+    "question": "Arrange folders visited using stack logic.",
+    "options": ["Root", "Folder1", "Folder2"],
+    "answer": ["Folder2", "Folder1", "Root"]
+  },
+  {
+    "id": 41,
+    "story": "You’re writing a simulation for OS process stack memory.",
+    "question": "Arrange function frames from top to bottom.",
+    "options": ["init()", "run()", "exit()"],
+    "answer": ["exit()", "run()", "init()"]
+  },
+  {
+    "id": 42,
+    "story": "A coder implements call trace visualization tool.",
+    "question": "Arrange recursive function calls by depth.",
+    "options": ["f1()", "f2()", "f3()"],
+    "answer": ["f3()", "f2()", "f1()"]
+  },
+  {
+    "id": 43,
+    "story": "An AI planner uses stack for depth-limited search.",
+    "question": "Arrange states as pushed to stack.",
+    "options": ["S1", "S2", "S3"],
+    "answer": ["S3", "S2", "S1"]
+  },
+  {
+    "id": 44,
+    "story": "You're creating an assembly-level stack simulation.",
+    "question": "Arrange push operations in memory stack.",
+    "options": ["Push AX", "Push BX", "Push CX"],
+    "answer": ["Push CX", "Push BX", "Push AX"]
+  },
+  {
+    "id": 45,
+    "story": "You are debugging infinite recursion.",
+    "question": "Arrange function calls that cause stack overflow.",
+    "options": ["foo()", "bar()", "baz()"],
+    "answer": ["baz()", "bar()", "foo()"]
+  },
+  {
+    "id": 46,
+    "story": "You are building a web browser tab navigation using stacks.",
+    "question": "Arrange opened tabs as stack elements.",
+    "options": ["Tab1", "Tab2", "Tab3"],
+    "answer": ["Tab3", "Tab2", "Tab1"]
+  },
+  {
+    "id": 47,
+    "story": "A compiler stores variable scopes using stack.",
+    "question": "Arrange scopes from innermost to outermost.",
+    "options": ["Global", "Function", "Loop"],
+    "answer": ["Loop", "Function", "Global"]
+  },
+  {
+    "id": 48,
+    "story": "A 3D engine uses stack to handle transformation matrices.",
+    "question": "Arrange transformations applied last to first.",
+    "options": ["Scale", "Rotate", "Translate"],
+    "answer": ["Translate", "Rotate", "Scale"]
+  },
+  {
+    "id": 49,
+    "story": "You're implementing recursion for factorial in JavaScript.",
+    "question": "Arrange function calls in stack order.",
+    "options": ["fact(1)", "fact(2)", "fact(3)"],
+    "answer": ["fact(3)", "fact(2)", "fact(1)"]
+  },
+  {
+    "id": 50,
+    "story": "You’re building a function call tracer for C programs.",
+    "question": "Arrange stack frames in correct call order.",
+    "options": ["main", "alpha", "beta", "gamma"],
+    "answer": ["gamma", "beta", "alpha", "main"]
+  }
+]
