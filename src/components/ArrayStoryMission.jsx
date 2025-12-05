@@ -47,10 +47,9 @@ export default function ArrayStoryMission() {
     missions.forEach((m, i) => {
       const userOrder = answers[i] || m.options;
 
-      // For these array missions, the data uses a *single* correct answer string.
-      // We'll treat the option placed at the first position as the player's choice.
-      const selectedAnswer = Array.isArray(userOrder) ? userOrder[0] : userOrder;
-      const correct = selectedAnswer === m.answer;
+      // Treat the user's arranged list as the full answer array and compare
+      // to the mission's answer (which is an array) for exact order match.
+      const correct = JSON.stringify(userOrder) === JSON.stringify(m.answer);
 
       if (correct) newScore++;
     });
@@ -193,9 +192,8 @@ export default function ArrayStoryMission() {
           )}
           
           {missions.map((mission, i) => {
-            const userOrder = answers[i] || mission.options;
-            const selectedAnswer = Array.isArray(userOrder) ? userOrder[0] : userOrder;
-            const correct = selectedAnswer === mission.answer;
+            const userAns = answers[i] || mission.options;
+            const correct = JSON.stringify(userAns) === JSON.stringify(mission.answer);
 
             return (
               <div
@@ -209,12 +207,12 @@ export default function ArrayStoryMission() {
                 <h3 className="font-semibold">{mission.story}</h3>
                 <p className="text-sm text-gray-600 mb-2">{mission.question}</p>
                 <p>
-                  ✅ Correct Answer: <strong>{mission.answer}</strong>
+                  ✅ Correct: <strong>{Array.isArray(mission.answer) ? mission.answer.join(", ") : mission.answer}</strong>
                 </p>
                 <p>
-                  🧠 Your Answer:{" "}
+                  🧠 Your Answer: {" "}
                   <strong className={correct ? "text-green-700" : "text-red-700"}>
-                    {selectedAnswer}
+                    {Array.isArray(userAns) ? userAns.join(", ") : String(userAns)}
                   </strong>
                 </p>
               </div>

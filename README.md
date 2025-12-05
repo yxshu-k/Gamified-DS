@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -19,3 +20,7 @@ If you are developing a production application, we recommend using TypeScript wi
 # Gamified-DS
 Gamified learning with DS
 >>>>>>> 658c1a1b0eb9c19f6f4013ee3df976ab9d12b079
+=======
+# Gamified-ds
+gamified learning with ds
+>>>>>>> 9db6da7986e7c5cf78bded2877ba9d828ffb7d4f

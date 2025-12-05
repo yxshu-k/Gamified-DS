@@ -1,353 +1,352 @@
 [
-    {
-      "id": 1,
-      "story": "You’re developing a signal processing system in electronics.",
-      "question": "Which array operation would best smooth a noisy signal?",
-      "options": ["Filter", "Sort", "Reverse", "Rotate"],
-      "answer": "Filter"
-    },
-    {
-      "id": 2,
-      "story": "You’re coding a temperature monitoring system.",
-      "question": "Which array element gives the highest temperature reading?",
-      "options": ["min()", "max()", "sum()", "average()"],
-      "answer": "max()"
-    },
-    {
-      "id": 3,
-      "story": "A mechanical engineer stores vibration data readings in an array.",
-      "question": "Which operation helps remove duplicate readings?",
-      "options": ["concat()", "unique()", "reverse()", "pop()"],
-      "answer": "unique()"
-    },
-    {
-      "id": 4,
-      "story": "You’re building a data analytics dashboard.",
-      "question": "Which array function would calculate total sales?",
-      "options": ["reduce()", "map()", "filter()", "slice()"],
-      "answer": "reduce()"
-    },
-    {
-      "id": 5,
-      "story": "You’re implementing a grading system.",
-      "question": "Which array operation is used to find all students scoring above 80?",
-      "options": ["map()", "filter()", "reduce()", "concat()"],
-      "answer": "filter()"
-    },
-    {
-      "id": 6,
-      "story": "An AI engineer stores prediction probabilities in an array.",
-      "question": "Which operation identifies the most confident prediction?",
-      "options": ["max()", "min()", "sort()", "shift()"],
-      "answer": "max()"
-    },
-    {
-      "id": 7,
-      "story": "You’re working on an image processing algorithm.",
-      "question": "Which array represents a pixel’s RGB values?",
-      "options": ["[255, 255, 255]", "[x, y]", "[1]", "['red', 'green', 'blue']"],
-      "answer": "[255, 255, 255]"
-    },
-    {
-      "id": 8,
-      "story": "You are building an IoT system that logs sensor data.",
-      "question": "Which array method adds a new reading at the end?",
-      "options": ["push()", "pop()", "shift()", "unshift()"],
-      "answer": "push()"
-    },
-    {
-      "id": 9,
-      "story": "A data engineer stores daily rainfall readings in an array.",
-      "question": "Which function helps to find the average rainfall?",
-      "options": ["sum()/length", "filter()", "sort()", "slice()"],
-      "answer": "sum()/length"
-    },
-    {
-      "id": 10,
-      "story": "You’re optimizing a search algorithm.",
-      "question": "Which searching technique works best on sorted arrays?",
-      "options": ["Linear Search", "Binary Search", "Hash Search", "DFS"],
-      "answer": "Binary Search"
-    },
-    {
-      "id": 11,
-      "story": "You’re coding a scheduling system for tasks.",
-      "question": "Which array method removes the first task?",
-      "options": ["pop()", "shift()", "slice()", "splice()"],
-      "answer": "shift()"
-    },
-    {
-      "id": 12,
-      "story": "An aerospace engineer stores altitude readings in arrays.",
-      "question": "What operation helps detect sudden drops?",
-      "options": ["Difference of consecutive elements", "Sum", "Sort", "Concat"],
-      "answer": "Difference of consecutive elements"
-    },
-    {
-      "id": 13,
-      "story": "You are creating a database of student marks.",
-      "question": "Which array method sorts marks from low to high?",
-      "options": ["sort()", "reverse()", "filter()", "map()"],
-      "answer": "sort()"
-    },
-    {
-      "id": 14,
-      "story": "A robotics engineer logs distances from sensors.",
-      "question": "Which array operation helps in finding the minimum distance?",
-      "options": ["Math.min(...arr)", "filter()", "concat()", "reverse()"],
-      "answer": "Math.min(...arr)"
-    },
-    {
-      "id": 15,
-      "story": "You’re training a neural network.",
-      "question": "Which array stores the neuron weights?",
-      "options": ["Scalar", "Matrix", "Queue", "Stack"],
-      "answer": "Matrix"
-    },
-    {
-      "id": 16,
-      "story": "You are analyzing traffic flow data.",
-      "question": "Which operation reverses car counts by hour?",
-      "options": ["reverse()", "map()", "filter()", "slice()"],
-      "answer": "reverse()"
-    },
-    {
-      "id": 17,
-      "story": "A biomedical engineer stores heart rate readings.",
-      "question": "Which function identifies abnormal spikes?",
-      "options": ["filter()", "concat()", "reduce()", "sort()"],
-      "answer": "filter()"
-    },
-    {
-      "id": 18,
-      "story": "You are simulating CPU scheduling using arrays.",
-      "question": "Which operation finds the process with the smallest burst time?",
-      "options": ["min()", "max()", "sort()", "reduce()"],
-      "answer": "min()"
-    },
-    {
-      "id": 19,
-      "story": "An electronics student records voltage readings.",
-      "question": "Which operation merges readings from two sensors?",
-      "options": ["concat()", "filter()", "map()", "reduce()"],
-      "answer": "concat()"
-    },
-    {
-      "id": 20,
-      "story": "A data science student normalizes data arrays.",
-      "question": "Which formula is correct for normalization?",
-      "options": ["(x-min)/(max-min)", "x/max", "x-min", "x/max-min"],
-      "answer": "(x-min)/(max-min)"
-    },
-    {
-      "id": 21,
-      "story": "A CS student implements matrix multiplication.",
-      "question": "Which structure is used to store a 2D matrix?",
-      "options": ["Array of Arrays", "Linked List", "Stack", "Queue"],
-      "answer": "Array of Arrays"
-    },
-    {
-      "id": 22,
-      "story": "You’re writing a sorting program in C.",
-      "question": "Which algorithm uses array swapping repeatedly?",
-      "options": ["Bubble Sort", "Merge Sort", "Quick Sort", "Insertion Sort"],
-      "answer": "Bubble Sort"
-    },
-    {
-      "id": 23,
-      "story": "An electrical student measures signal amplitude.",
-      "question": "Which function computes mean amplitude?",
-      "options": ["reduce()/length", "sort()", "concat()", "filter()"],
-      "answer": "reduce()/length"
-    },
-    {
-      "id": 24,
-      "story": "You’re simulating a conveyor belt system.",
-      "question": "Which operation rotates the array to simulate movement?",
-      "options": ["shift() + push()", "reverse()", "slice()", "sort()"],
-      "answer": "shift() + push()"
-    },
-    {
-      "id": 25,
-      "story": "You are storing color intensities in image pixels.",
-      "question": "Which array property gives number of pixels?",
-      "options": ["length", "size", "count", "index"],
-      "answer": "length"
-    },
-    {
-      "id": 26,
-      "story": "You’re processing exam results in a portal.",
-      "question": "Which operation creates a new array with squared marks?",
-      "options": ["map()", "reduce()", "filter()", "slice()"],
-      "answer": "map()"
-    },
-    {
-      "id": 27,
-      "story": "You’re simulating wave motion.",
-      "question": "Which function shifts array elements cyclically?",
-      "options": ["rotate()", "shift()", "reverse()", "sort()"],
-      "answer": "rotate()"
-    },
-    {
-      "id": 28,
-      "story": "A mechanical student analyzes sensor patterns.",
-      "question": "Which array algorithm detects a repeated pattern?",
-      "options": ["Sliding Window", "Stack", "DFS", "Greedy"],
-      "answer": "Sliding Window"
-    },
-    {
-      "id": 29,
-      "story": "An AI student stores loss values after each epoch.",
-      "question": "Which operation finds the epoch with least loss?",
-      "options": ["min()", "max()", "reduce()", "sort()"],
-      "answer": "min()"
-    },
-    {
-      "id": 30,
-      "story": "You are building a playlist organizer.",
-      "question": "Which array method adds songs at the beginning?",
-      "options": ["unshift()", "push()", "splice()", "slice()"],
-      "answer": "unshift()"
-    },
-    {
-      "id": 31,
-      "story": "A student records CPU usage in an array.",
-      "question": "Which function finds continuous high-usage segments?",
-      "options": ["Sliding Window", "Binary Search", "Recursion", "Stack"],
-      "answer": "Sliding Window"
-    },
-    {
-      "id": 32,
-      "story": "You are analyzing light intensity values.",
-      "question": "Which array algorithm helps find maximum subarray sum?",
-      "options": ["Kadane’s Algorithm", "Merge Sort", "DFS", "Quick Sort"],
-      "answer": "Kadane’s Algorithm"
-    },
-    {
-      "id": 33,
-      "story": "You’re coding a frequency counter for words.",
-      "question": "Which structure pairs words with their counts?",
-      "options": ["Array of Objects", "Set", "Stack", "Queue"],
-      "answer": "Array of Objects"
-    },
-    {
-      "id": 34,
-      "story": "You’re simulating temperature prediction errors.",
-      "question": "Which function finds deviation from average?",
-      "options": ["map()", "filter()", "reduce()", "slice()"],
-      "answer": "map()"
-    },
-    {
-      "id": 35,
-      "story": "An automotive engineer stores speed readings.",
-      "question": "Which array operation reverses acceleration trend?",
-      "options": ["reverse()", "filter()", "sort()", "concat()"],
-      "answer": "reverse()"
-    },
-    {
-      "id": 36,
-      "story": "You’re developing a physics experiment simulator.",
-      "question": "Which array operation removes the last result?",
-      "options": ["pop()", "shift()", "slice()", "unshift()"],
-      "answer": "pop()"
-    },
-    {
-      "id": 37,
-      "story": "A biomedical engineer collects ECG wave samples.",
-      "question": "Which array operation merges multiple leads' data?",
-      "options": ["concat()", "map()", "reduce()", "splice()"],
-      "answer": "concat()"
-    },
-    {
-      "id": 38,
-      "story": "A civil engineer analyzes load distribution data.",
-      "question": "Which operation finds uneven load points?",
-      "options": ["filter()", "reverse()", "map()", "reduce()"],
-      "answer": "filter()"
-    },
-    {
-      "id": 39,
-      "story": "You’re coding a movie recommendation system.",
-      "question": "Which array operation sorts by highest rating?",
-      "options": ["sort()", "filter()", "slice()", "reduce()"],
-      "answer": "sort()"
-    },
-    {
-      "id": 40,
-      "story": "An embedded developer stores memory bytes in an array.",
-      "question": "Which operation reads data sequentially?",
-      "options": ["for loop", "map()", "filter()", "sort()"],
-      "answer": "for loop"
-    },
-    {
-      "id": 41,
-      "story": "You’re coding a pathfinding algorithm for robotics.",
-      "question": "Which array operation stores the shortest path sequence?",
-      "options": ["push()", "map()", "concat()", "filter()"],
-      "answer": "push()"
-    },
-    {
-      "id": 42,
-      "story": "You’re training a model on numerical datasets.",
-      "question": "Which array operation normalizes data values?",
-      "options": ["map()", "sort()", "filter()", "splice()"],
-      "answer": "map()"
-    },
-    {
-      "id": 43,
-      "story": "You’re coding an attendance tracking system.",
-      "question": "Which operation counts the number of presents?",
-      "options": ["filter().length", "map()", "sort()", "slice()"],
-      "answer": "filter().length"
-    },
-    {
-      "id": 44,
-      "story": "A control engineer measures system response times.",
-      "question": "Which array operation finds the fastest response?",
-      "options": ["min()", "max()", "reduce()", "concat()"],
-      "answer": "min()"
-    },
-    {
-      "id": 45,
-      "story": "You’re designing a resource allocation algorithm.",
-      "question": "Which data structure stores resources linearly?",
-      "options": ["Array", "Stack", "Queue", "Tree"],
-      "answer": "Array"
-    },
-    {
-      "id": 46,
-      "story": "A mechanical engineer logs torque readings.",
-      "question": "Which function computes the maximum torque?",
-      "options": ["max()", "min()", "reduce()", "sort()"],
-      "answer": "max()"
-    },
-    {
-      "id": 47,
-      "story": "An AI project stores output class probabilities.",
-      "question": "Which operation extracts the top prediction?",
-      "options": ["argmax()", "sort()", "filter()", "concat()"],
-      "answer": "argmax()"
-    },
-    {
-      "id": 48,
-      "story": "You are writing a C program for array traversal.",
-      "question": "Which index is invalid for array of size 5?",
-      "options": ["0", "1", "4", "5"],
-      "answer": "5"
-    },
-    {
-      "id": 49,
-      "story": "A civil engineer tracks beam deflection at points.",
-      "question": "Which operation removes faulty sensor value?",
-      "options": ["splice()", "filter()", "concat()", "shift()"],
-      "answer": "splice()"
-    },
-    {
-      "id": 50,
-      "story": "A software engineer develops sorting visualization.",
-      "question": "Which algorithm uses divide and conquer on arrays?",
-      "options": ["Merge Sort", "Bubble Sort", "Selection Sort", "Insertion Sort"],
-      "answer": "Merge Sort"
-    }
-  ]
-  
+{
+"id": 1,
+"story": "You're implementing array indexing for a language runtime.",
+"question": "Arrange indices for array [10,20,30] in increasing index order.",
+"options": ["0", "1", "2"],
+"answer": ["0", "1", "2"]
+},
+{
+"id": 2,
+"story": "You’re designing a UI that displays array elements left-to-right.",
+"question": "Arrange elements of ['A','B','C'] from left to right.",
+"options": ["A", "B", "C"],
+"answer": ["A", "B", "C"]
+},
+{
+"id": 3,
+"story": "You’re debugging an off-by-one error in loops.",
+"question": "Arrange loop bounds to iterate entire array arr with n elements (start to end).",
+"options": ["i = 1 to n", "i = 0 to n-1", "i = 0 to n"],
+"answer": ["i = 0 to n-1", "i = 0 to n", "i = 1 to n"]
+},
+{
+"id": 4,
+"story": "You’re implementing array reverse function.",
+"question": "Arrange steps to reverse an array in-place.",
+"options": ["Swap arr[i] with arr[n-1-i]", "Increment i", "Repeat until i >= n/2"],
+"answer": ["Swap arr[i] with arr[n-1-i]", "Increment i", "Repeat until i >= n/2"]
+},
+{
+"id": 5,
+"story": "You’re creating an algorithm to find max in array.",
+"question": "Arrange the actions in correct order.",
+"options": ["Compare current to max", "Set max = arr[0]", "Iterate remaining elements"],
+"answer": ["Set max = arr[0]", "Iterate remaining elements", "Compare current to max"]
+},
+{
+"id": 6,
+"story": "You’re implementing push onto dynamic array.",
+"question": "Arrange internal steps when pushing element into full array.",
+"options": ["Allocate larger array", "Copy elements", "Insert new element"],
+"answer": ["Allocate larger array", "Copy elements", "Insert new element"]
+},
+{
+"id": 7,
+"story": "You’re implementing pop operation for array-backed stack.",
+"question": "Arrange steps for pop (top at end).",
+"options": ["Return arr[size-1]", "Decrement size", "Check if empty"],
+"answer": ["Check if empty", "Return arr[size-1]", "Decrement size"]
+},
+{
+"id": 8,
+"story": "You’re designing array slicing utility.",
+"question": "Arrange results for slice(arr,1,4) on [0,1,2,3,4].",
+"options": ["[1,2,3]", "[1,2,3,4]", "[0,1]"],
+"answer": ["[1,2,3]", "[1,2,3,4]", "[0,1]"]
+},
+{
+"id": 9,
+"story": "You’re building a function to rotate array right by 1.",
+"question": "Arrange array [1,2,3,4] after single right rotation.",
+"options": ["[4,1,2,3]", "[2,3,4,1]", "[1,2,3,4]"],
+"answer": ["[4,1,2,3]", "[2,3,4,1]", "[1,2,3,4]"]
+},
+{
+"id": 10,
+"story": "You’re implementing merge step of merge sort.",
+"question": "Arrange steps for merging two sorted subarrays.",
+"options": ["Compare heads", "Append smaller", "Advance pointer"],
+"answer": ["Compare heads", "Append smaller", "Advance pointer"]
+},
+{
+"id": 11,
+"story": "You’re creating an in-place duplicate removal function for sorted arrays.",
+"question": "Arrange operations to remove duplicates.",
+"options": ["Write unique element at writeIndex", "Advance read pointer", "Initialize writeIndex = 1"],
+"answer": ["Initialize writeIndex = 1", "Advance read pointer", "Write unique element at writeIndex"]
+},
+{
+"id": 12,
+"story": "You’re optimizing cache access patterns for array traversal.",
+"question": "Arrange traversal orders from best to worst for cache (contiguous preferred).",
+"options": ["Row-major sequential", "Random access", "Column-major on row-major layout"],
+"answer": ["Row-major sequential", "Column-major on row-major layout", "Random access"]
+},
+{
+"id": 13,
+"story": "You’re implementing binary search.",
+"question": "Arrange steps for one iteration of binary search.",
+"options": ["Compare mid", "Adjust low/high", "Compute mid"],
+"answer": ["Compute mid", "Compare mid", "Adjust low/high"]
+},
+{
+"id": 14,
+"story": "You’re building an array-based queue.",
+"question": "Arrange operations for enqueue on circular buffer.",
+"options": ["Place at tail", "Increment tail modulo capacity", "Check full"],
+"answer": ["Check full", "Place at tail", "Increment tail modulo capacity"]
+},
+{
+"id": 15,
+"story": "You’re implementing array concatenation.",
+"question": "Arrange steps to concatenate A then B into new array C.",
+"options": ["Copy B into C after end of A", "Allocate C with size len(A)+len(B)", "Copy A into C start"],
+"answer": ["Allocate C with size len(A)+len(B)", "Copy A into C start", "Copy B into C after end of A"]
+},
+{
+"id": 16,
+"story": "You’re writing unit tests for array equality.",
+"question": "Arrange checks to determine if two arrays are equal.",
+"options": ["Compare lengths", "Compare elements pairwise", "Return true if all match"],
+"answer": ["Compare lengths", "Compare elements pairwise", "Return true if all match"]
+},
+{
+"id": 17,
+"story": "You’re implementing insertion into sorted array.",
+"question": "Arrange steps to insert x preserving sorted order.",
+"options": ["Shift larger elements right", "Find insertion index", "Place x at index"],
+"answer": ["Find insertion index", "Shift larger elements right", "Place x at index"]
+},
+{
+"id": 18,
+"story": "You’re developing a function to compute prefix sums.",
+"question": "Arrange operations to produce prefix array P from A.",
+"options": ["P[i] = P[i-1] + A[i]", "Initialize P[0] = A[0]", "Iterate i from 1 to n-1"],
+"answer": ["Initialize P[0] = A[0]", "Iterate i from 1 to n-1", "P[i] = P[i-1] + A[i]"]
+},
+{
+"id": 19,
+"story": "You’re implementing element-wise addition of two arrays.",
+"question": "Arrange steps to add arrays A and B into C.",
+"options": ["For i in range(n): C[i]=A[i]+B[i]", "Check equal lengths", "Return C"],
+"answer": ["Check equal lengths", "For i in range(n): C[i]=A[i]+B[i]", "Return C"]
+},
+{
+"id": 20,
+"story": "You’re designing an algorithm to find first occurrence of value.",
+"question": "Arrange search orders to find first index of target in [5,3,5,2].",
+"options": ["Return 0", "Return 2", "Return -1 if not found"],
+"answer": ["Return 0", "Return 2", "Return -1 if not found"]
+},
+{
+"id": 21,
+"story": "You’re implementing stable partition on arrays.",
+"question": "Arrange actions to partition while preserving relative order.",
+"options": ["Collect true elements in temp", "Collect false elements in temp", "Concatenate temps into original"],
+"answer": ["Collect true elements in temp", "Collect false elements in temp", "Concatenate temps into original"]
+},
+{
+"id": 22,
+"story": "You’re debugging index wrap-around in circular array.",
+"question": "Arrange computation for next index after i with capacity n.",
+"options": ["(i+1)%n", "(i-1+n)%n", "i+1"],
+"answer": ["(i+1)%n", "i+1", "(i-1+n)%n"]
+},
+{
+"id": 23,
+"story": "You’re teaching students array element shifting.",
+"question": "Arrange elements after removing element at index 1 from [a,b,c,d].",
+"options": ["[a,c,d]", "[a,b,d]", "[b,c,d]"],
+"answer": ["[a,c,d]", "[a,b,d]", "[b,c,d]"]
+},
+{
+"id": 24,
+"story": "You’re implementing Kadane’s algorithm.",
+"question": "Arrange variables updated each step.",
+"options": ["maxEndingHere", "maxSoFar", "currentValue"],
+"answer": ["currentValue", "maxEndingHere", "maxSoFar"]
+},
+{
+"id": 25,
+"story": "You’re designing a bloom filter backed by bit array.",
+"question": "Arrange operations when inserting element.",
+"options": ["Compute hash positions", "Set bits at positions", "Check false-positive rate"],
+"answer": ["Compute hash positions", "Set bits at positions", "Check false-positive rate"]
+},
+{
+"id": 26,
+"story": "You’re implementing rotate-left by k on array.",
+"question": "Arrange resulting array for [1,2,3,4] rotate-left by 2.",
+"options": ["[3,4,1,2]", "[2,3,4,1]", "[1,2,3,4]"],
+"answer": ["[3,4,1,2]", "[2,3,4,1]", "[1,2,3,4]"]
+},
+{
+"id": 27,
+"story": "You’re creating an index-of-max function.",
+"question": "Arrange steps to find index of maximum element.",
+"options": ["Compare and update index", "Initialize maxIndex = 0", "Iterate through array"],
+"answer": ["Initialize maxIndex = 0", "Iterate through array", "Compare and update index"]
+},
+{
+"id": 28,
+"story": "You’re implementing element insertion at front for array-based deque.",
+"question": "Arrange steps to insert at front with shift.",
+"options": ["Shift elements right", "Place new element at index 0", "Check capacity"],
+"answer": ["Check capacity", "Shift elements right", "Place new element at index 0"]
+},
+{
+"id": 29,
+"story": "You’re designing serialization for arrays.",
+"question": "Arrange data written for [1,2,3] in compact format.",
+"options": ["Length then elements", "Elements then length", "Only elements"],
+"answer": ["Length then elements", "Only elements", "Elements then length"]
+},
+{
+"id": 30,
+"story": "You’re implementing map operation over array.",
+"question": "Arrange steps to apply f to each element producing new array.",
+"options": ["Allocate result array", "For each element apply f and store", "Return result"],
+"answer": ["Allocate result array", "For each element apply f and store", "Return result"]
+},
+{
+"id": 31,
+"story": "You’re creating a sliding window maximum.",
+"question": "Arrange window positions for array [1,3,-1,-3,5] with k=3.",
+"options": ["[1,3,-1]", "[3,-1,-3]", "[-1,-3,5]"],
+"answer": ["[1,3,-1]", "[3,-1,-3]", "[-1,-3,5]"]
+},
+{
+"id": 32,
+"story": "You’re implementing element-wise multiplication.",
+"question": "Arrange operations to multiply two same-length arrays.",
+"options": ["Check lengths", "For i multiply elements", "Return product array"],
+"answer": ["Check lengths", "For i multiply elements", "Return product array"]
+},
+{
+"id": 33,
+"story": "You’re debugging shallow vs deep copy of arrays.",
+"question": "Arrange behaviors from shallow to deep effect.",
+"options": ["References shared", "Independent copies", "Nested objects still shared if shallow"],
+"answer": ["References shared", "Nested objects still shared if shallow", "Independent copies"]
+},
+{
+"id": 34,
+"story": "You’re building a function to rotate subarray in-place.",
+"question": "Arrange three-step reversal trick to rotate right by k.",
+"options": ["Reverse whole array", "Reverse first k elements", "Reverse remaining n-k elements"],
+"answer": ["Reverse whole array", "Reverse first k elements", "Reverse remaining n-k elements"]
+},
+{
+"id": 35,
+"story": "You’re implementing array flatten for one level.",
+"question": "Arrange operations to flatten [[1,2],[3,4]] one level.",
+"options": ["Concatenate subarrays", "Iterate subarrays", "Append elements to result"],
+"answer": ["Iterate subarrays", "Append elements to result", "Concatenate subarrays"]
+},
+{
+"id": 36,
+"story": "You’re designing a sparse array representation.",
+"question": "Arrange storage choices from dense to most sparse-friendly.",
+"options": ["Simple array", "Dictionary of indices", "Chunked blocks"],
+"answer": ["Simple array", "Chunked blocks", "Dictionary of indices"]
+},
+{
+"id": 37,
+"story": "You’re implementing prefix min array.",
+"question": "Arrange operations to compute prefix minimums for A.",
+"options": ["Initialize pref[0]=A[0]", "pref[i]=min(pref[i-1],A[i])", "Iterate i from 1 to n-1"],
+"answer": ["Initialize pref[0]=A[0]", "Iterate i from 1 to n-1", "pref[i]=min(pref[i-1],A[i])"]
+},
+{
+"id": 38,
+"story": "You’re using arrays to represent adjacency in graphs.",
+"question": "Arrange representation types from simplest to most flexible.",
+"options": ["Adjacency matrix", "Adjacency list (array of lists)", "Edge list (array of edges)"],
+"answer": ["Adjacency matrix", "Adjacency list (array of lists)", "Edge list (array of edges)"]
+},
+{
+"id": 39,
+"story": "You’re implementing stable sort on arrays.",
+"question": "Arrange common stable sorts by typical complexity from best to worst.",
+"options": ["Merge sort O(n log n)", "Insertion sort O(n^2)", "Tim sort O(n log n) practical"],
+"answer": ["Merge sort O(n log n)", "Tim sort O(n log n) practical", "Insertion sort O(n^2)"]
+},
+{
+"id": 40,
+"story": "You’re creating a function to find two-sum indices.",
+"question": "Arrange strategies from brute-force to optimal.",
+"options": ["Hash map single pass", "Sort and two pointers", "Nested loops brute force"],
+"answer": ["Nested loops brute force", "Sort and two pointers", "Hash map single pass"]
+},
+{
+"id": 41,
+"story": "You’re implementing element removal by value (first occurrence).",
+"question": "Arrange steps to remove first target value.",
+"options": ["Find index of target", "Shift later elements left", "Return new length"],
+"answer": ["Find index of target", "Shift later elements left", "Return new length"]
+},
+{
+"id": 42,
+"story": "You’re designing memory layout visualization for arrays.",
+"question": "Arrange addresses for contiguous array elements a[0], a[1], a[2].",
+"options": ["addr(a[0]) < addr(a[1]) < addr(a[2])", "addr(a[2]) < addr(a[1]) < addr(a[0])", "All equal"],
+"answer": ["addr(a[0]) < addr(a[1]) < addr(a[2])", "addr(a[2]) < addr(a[1]) < addr(a[0])", "All equal"]
+},
+{
+"id": 43,
+"story": "You’re implementing reservoir sampling over an array stream.",
+"question": "Arrange high-level steps for reservoir sampling k=1.",
+"options": ["For i from 1 to n decide replacement with prob 1/i", "Initialize reservoir with first element", "Return reservoir"],
+"answer": ["Initialize reservoir with first element", "For i from 1 to n decide replacement with prob 1/i", "Return reservoir"]
+},
+{
+"id": 44,
+"story": "You’re creating a function to check if array is palindrome.",
+"question": "Arrange checks to verify palindrome.",
+"options": ["Compare arr[i] with arr[n-1-i]", "Iterate i from 0 to n/2", "Return true if all matched"],
+"answer": ["Iterate i from 0 to n/2", "Compare arr[i] with arr[n-1-i]", "Return true if all matched"]
+},
+{
+"id": 45,
+"story": "You’re implementing stable bucket of arrays for counting sort.",
+"question": "Arrange steps to perform counting sort for integers in small range.",
+"options": ["Count frequencies", "Compute prefix sums of counts", "Place elements into output using counts"],
+"answer": ["Count frequencies", "Compute prefix sums of counts", "Place elements into output using counts"]
+},
+{
+"id": 46,
+"story": "You’re designing an API that returns last element safely.",
+"question": "Arrange checks and returns for getLast(arr).",
+"options": ["If empty return null", "Return arr[arr.length-1]", "Compute length"],
+"answer": ["Compute length", "If empty return null", "Return arr[arr.length-1]"]
+},
+{
+"id": 47,
+"story": "You’re optimizing vector resizing policy.",
+"question": "Arrange common resize growth factors from conservative to aggressive.",
+"options": ["+1 each time", ["*1.5"], ["*2"]],
+"answer": ["+1 each time", ["*1.5"], ["*2"]]
+},
+{
+"id": 48,
+"story": "You’re implementing stable remove-if using extra buffer.",
+"question": "Arrange operations to remove elements matching predicate.",
+"options": ["Scan and copy non-matching to temp", "Assign temp back to original", "Return new size"],
+"answer": ["Scan and copy non-matching to temp", "Assign temp back to original", "Return new size"]
+},
+{
+"id": 49,
+"story": "You’re creating an algorithm to find majority element in array.",
+"question": "Arrange steps for Boyer–Moore majority vote.",
+"options": ["If count==0 set candidate = x", "If x==candidate increment count else decrement", "Initialize candidate and count=0"],
+"answer": ["Initialize candidate and count=0", "If count==0 set candidate = x", "If x==candidate increment count else decrement"]
+},
+{
+"id": 50,
+"story": "You’re designing exercises similar to stack set but for arrays.",
+"question": "Arrange the tasks students should practice in increasing complexity.",
+"options": ["Access by index", "In-place reverse", "Implement dynamic array resizing", "Implement merge sort"],
+"answer": ["Access by index", "In-place reverse", "Implement dynamic array resizing", "Implement merge sort"]
+}
+]
